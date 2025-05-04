@@ -188,6 +188,7 @@ gridSizeInput.addEventListener("click", () => {
     }
     else if(gridSize > 0 && gridSize <= 100){
     createGrid(gridSize);
+    resetStatus();
     changeColorLogic("rgb(0, 0, 0)");
     }else{
         alert("Error: Invalid input");
