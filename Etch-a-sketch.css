@@ -63,6 +63,8 @@ div{
     justify-content: center;
     align-items: center;
     gap: 20px;
+    font-size: 20px;
+    width: 30vw;
 }
 button{
     background-color:#0D1117;
@@ -76,10 +78,11 @@ button{
     box-shadow: 0px 5px 10px#0D1117;
     transition: 150ms;
     height: 4vh;
+    font-size: 0.8vw;
 }
 button:hover{
     background-color: #161b22;
-    box-shadow: 0px 5px 10px#161b22;
+    box-shadow: 0px 5px 10px#08090c;
     transform: scale(1.1); 
 }
 button:active{
@@ -90,9 +93,13 @@ button:active{
 #grid{
     width: 30vw;
     height: 30vw;
-    background-color: white;
+    background-color: black;
     display: flex; 
     flex-direction: column;
+    cursor: crosshair; 
+    pointer-events: all;
+    user-select: none;
+    -webkit-user-drag: none;
     
 }
 
